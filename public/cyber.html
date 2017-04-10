@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+  
+      Author: Sean Burke 
+      Date:   
+
+      Filename: page 1.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet"  href="project.css" />
+   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+   <div id="container">
+      <header>
+         <h1>
+            <img src="https://cdn.gomix.com/527c1064-2930-4643-98cc-4faf19ffef96%2Fbaseball.jpg" alt="INFO 301 - Student Project" title="" />
+         </h1>
+      </header>
+
+	 <!--
+      The nav section (below) contains and unordered list <ul>.
+      Each individual page is listed as a separate line item <li>.
+      Note that the first two line items have been given a unique ID attribute value and an "href"
+      which is a hypertext reference.  You will need to create two additional .htm files and references 
+      for the other tabs to work.   
+	-->  
+	  <nav>
+ 
+	    <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/location.html">Locations</a></li>
+            <li><a href="/orders.html">Orders</a></li>
+            <li id="currentpage"><a href="#">About</a></li>            
+		</ul>
+      </nav>
+ 	 <!--
+      The heading and paragraph tags below are "placeholders for your own content".
+	-->         
+      <article>
+         <h2>Cyber Security</h2>
+        Some links are provided below:
+        <br><br>
+        <a href="https://us.norton.com/security_response/browsewebsafely.jsp">Norton</a>
+        The page highlights the three broad ways through which people can attack a user through the web. The three highlighted attacks are phishing, spyware, and vulnerabilities. It furthermore tells you how to tell about the attacks and what to do to fix.  
+        <br><br>
+        <a href="https://www.veracode.com/blog/2013/01/tips-for-secure-web-browsing-cybersecurity-101"> Veracode </a>
+        The webpage helps to highlight the best practices a user can do to ensure a safe browing experience. 
+        <br><br>
+        <a href="https://www.webroot.com/us/en/home/resources/articles/pc-security/online-activities-internet-security"> Webroot Safe Browsing</a>
+        The webroot page include safe browsing tips for the internet. The tips include items like avoiding risky website, avoiding popups, and installing antivirus programs.
+        <br><br> 
+        Properties: 
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        
+        
+        <script>
+  "use script";
+    document.getElementsByTagName("p")[0].innerHTML = "Web broser name: " + navigator.appName; 
+    document.getElementsByTagName("p")[1].innerHTML = "Web broser version: " + navigator.appVersion; 
+    document.getElementsByTagName("p")[2].innerHTML = "Operating platform: " + navigator.platform; 
+    document.getElementsByTagName("p")[3].innerHTML = "User Agent: " + navigator.userAgent; 
+    document.getElementsByTagName("p")[4].innerHTML = "Online Status: " + navigator.onLine;
+    document.getElementsByTagName("p")[5].innerHTML = "Screen Resolution: " + screen.pixelDepth;
+    document.getElementsByTagName("p")[6].innerHTML = "Width: " + screen.width;    
+    document.getElementsByTagName("p")[7].innerHTML = "Available Height: " + screen.availHeight;      
+          
+          
+    
+  </script>
+        
+        
+    
+     </article>
+    
+      <footer>
+         <p>Baseball LLC &bull; Salisbury, Maryland</p>
+      </footer>
+   </div>
+</body>
+</html>
